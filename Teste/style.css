@@ -23,9 +23,15 @@ body{
 nav{
     min-width: 150px;
     min-height: 100px;
-    background-color: yellow;
+    background-color: var(--cor1);
     padding: 10px;
     text-align: right;
+}
+
+nav img{
+    position: absolute;
+    left: 10%;
+    top: 6%;
 }
 
 nav a{
@@ -52,15 +58,40 @@ main h3{
     color: #20CBE4;
 }
 
-article{
+article#um{
+    padding-top: 10px;
     background-color: var(--cor2);
     padding-left: 150px;
     color: var(--corfonte);
 }
 
-#primeiro{
+.formatação_primeiro_ul{
     list-style-type: none;
-    display: contents;
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
+article#dois{
+    background-color: var(--cor3);
+    padding-left: 150px;
+    color: var(--corfonte);
+}
 
+article#dois p{
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.formatação_segundo_ul{
+    display: inline-block;
+    columns: 6;
+    max-width: 50px;
+    padding: 10px;
+    margin: 0px 15px;
+}
